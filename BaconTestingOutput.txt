@@ -1,0 +1,16 @@
+Test graph:
+Vertices: [Bob, Alice, Charlie, Nobody, Nobody's Friend, Kevin Bacon, Dartmouth (Earl thereof)]
+Out edges: {Bob={Alice=[A Movie], Charlie=[C Movie], Kevin Bacon=[A Movie]}, Alice={Bob=[A Movie], Charlie=[D Movie], Kevin Bacon=[A Movie, E Movie]}, Charlie={Bob=[C Movie], Alice=[D Movie], Dartmouth (Earl thereof)=[B Movie]}, Nobody={Nobody's Friend=[F Movie]}, Nobody's Friend={Nobody=[F Movie]}, Kevin Bacon={Bob=[A Movie], Alice=[A Movie, E Movie]}, Dartmouth (Earl thereof)={Charlie=[B Movie]}}
+
+BFS graph from Kevin Bacon:
+Vertices: [Bob, Alice, Charlie, Kevin Bacon, Dartmouth (Earl thereof)]
+Out edges: {Bob={Charlie=[C Movie]}, Alice={}, Charlie={Dartmouth (Earl thereof)=[B Movie]}, Kevin Bacon={Bob=[A Movie], Alice=[A Movie, E Movie]}, Dartmouth (Earl thereof)={}}
+
+Path to Charlie:
+[Kevin Bacon, Bob, Charlie]
+
+Missing vertices:
+[Nobody, Nobody's Friend]
+
+Average separation for Kevin Bacon in this universe:
+1.4

@@ -1,0 +1,18 @@
+/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58640:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/opencv.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/javacv.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/openblas-macosx-x86_64.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/opencv-macosx-x86_64.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/json-simple-1.1.1.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/libs/net-datastructures-4-0.jar:/Users/nathanmcallister/Documents/IdeaProjects/cs10/out/production/cs10 GraphLibrary
+1.0
+
+
+Vertices: [Bob, Alice, Nobody, Charlie, Nobody's Friend, Kevin Bacon, Dartmouth (Earl thereof)]
+Out edges: {Bob={Alice=[A movie], Charlie=[C movie], Kevin Bacon=[A movie]}, Alice={Bob=[A movie], Charlie=[D movie], Kevin Bacon=[A movie, E movie]}, Nobody={Nobody's Friend=[F movie]}, Charlie={Bob=[C movie], Alice=[D movie], Dartmouth (Earl thereof)=[B movie]}, Nobody's Friend={Nobody=[F movie]}, Kevin Bacon={Bob=[A movie], Alice=[A movie, E movie]}, Dartmouth (Earl thereof)={Charlie=[B movie]}}
+
+
+Vertices: [Bob, Alice, Charlie, Kevin Bacon, Dartmouth (Earl thereof)]
+Out edges: {Bob={}, Alice={Bob=[A movie], Charlie=[D movie], Kevin Bacon=[A movie, E movie]}, Charlie={Dartmouth (Earl thereof)=[B movie]}, Kevin Bacon={}, Dartmouth (Earl thereof)={}}
+
+
+[Alice, Bob]
+
+
+[Nobody, Nobody's Friend]
+
+Process finished with exit code 0

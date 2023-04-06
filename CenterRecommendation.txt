@@ -1,0 +1,9 @@
+Problem Set 4
+Nikhil Pande and Nathan McAllister
+
+We believe that a proper center of the acting universe should be someone with a very low average separation, which can be
+calculated with our function. This characteristic maximizes efficiency because people take, on average, a smaller number
+of steps to reach the center. Gene Hackman, whose average separation is about 3.06, would be an example of a good
+center of the universe. On the other hand, Bernhard Goetzke, whose average separation is about 8.68, would be a poor
+center of the universe, for most actors have many degrees of separation from him. In comparison to Kevin Bacon, whose
+average separation is 3.28, Gene Hackman would be a much better center of the universe.
